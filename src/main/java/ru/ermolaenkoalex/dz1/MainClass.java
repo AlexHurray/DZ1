@@ -25,5 +25,7 @@ public class MainClass {
         writer = new RecordsWriter(records);
         writer.write2Xls(FILENAME_XLS);
         writer.write2Pdf(FILENAME_PDF);
+
+        System.console().readLine();
     }
 }
